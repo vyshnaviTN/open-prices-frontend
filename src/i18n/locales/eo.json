@@ -79,7 +79,7 @@
 			"Title": "Price details",
 			"UploadProof": "Upload a proof",
 			"Picture": "Picture",
-			"TakePicture": "Take a picture",
+			"TakePicture": "Fotu",
 			"Gallery": "Device gallery",
 			"SelectFromGallery": "Select from device gallery",
 			"RecentProof": "Recent proof",
@@ -219,13 +219,14 @@
 		"Community": "Community",
 		"CommunityPrices": "Community prices",
 		"CommunityProofs": "Community proofs",
-		"Consumption": "Consumption",
+		"Consumption": "Konsumo",
 		"ConsumptionPrices": "Consumption prices",
 		"ConsumptionProofs": "Consumption proofs",
 		"Contribute": "Kontribui",
 		"Contributors": "Kontribuantoj",
 		"Contributions": "Contributions",
 		"Confirm": "Confirm",
+		"Count": "Count",
 		"Country": "Country",
 		"Countries": "Countries",
 		"CountryCount": "{count} countries | {count} country | {count} countries",
@@ -248,6 +249,7 @@
 		"Error": "Eraro",
 		"Experiment": "Eksperimento",
 		"Experiments": "Experiments",
+		"Explore": "Esplori",
 		"FromPriceTag": "De prezetikedo",
 		"FromReceipt": "De kvitanco",
 		"GoToProof": "Go to proof",
@@ -259,6 +261,7 @@
 		"Languages": "Languages",
 		"LatestPrices": "Latest prices",
 		"LatestProofs": "Latest proofs",
+		"LearnMore": "Learn more",
 		"LoadMore": "Load more",
 		"Location": "Location",
 		"Locations": "Locations",
@@ -266,6 +269,7 @@
 		"LocationFindShop": "Find the shop location",
 		"LocationMissing": "Location missing",
 		"LocationSearchByName": "Search by name and city",
+		"LocationsCompare": "Compare 2 locations",
 		"Date": "Date",
 		"DateMissing": "Date missing",
 		"DateProofHelpText": "Dato de la bildo.",
@@ -283,7 +287,7 @@
 		"DiscountTypeExpiresSoon": "Expires soon",
 		"DiscountTypePickItYourself": "Pick it yourself",
 		"DiscountTypeSecondHand": "Second hand",
-		"DiscountTypeOther": "Other",
+		"DiscountTypeOther": "Aliaj",
 		"Example": "Example",
 		"Examples": "Examples",
 		"ExampleWithColon": "Ekzemplo:",
@@ -296,6 +300,8 @@
 		"FieldIsRequired": "Kampo estas deviga",
 		"Filter": "Filter",
 		"FilterChallengesShowAllStatus": "Show all challenges",
+		"FilterWithPriceCount": "Kun prezoj",
+		"FilterWithLocationCount": "Kun lokoj",
 		"FilterProductWithPriceCount": "With a price",
 		"FilterProductWithPriceCountHide": "Hide products with prices",
 		"FilterProductWithoutPriceCount": "Without prices",
@@ -310,7 +316,7 @@
 		"FilterUserWithPriceCountHide": "Hide contributors with prices",
 		"Fix": "Fix",
 		"FAQ": "FAQ",
-		"FrequentlyAskedQuestions": "Frequently asked questions",
+		"FrequentlyAskedQuestions": "Oftaj demandoj",
 		"GDPR_REQUEST": "GDPR request",
 		"Group": "Group",
 		"Help": "Help",
@@ -337,7 +343,7 @@
 		"ModerationFlagReasonWrongProduct": "Malĝusta produkto",
 		"ModerationFlagReasonWrongLocation": "Malĝusta loko",
 		"ModerationFlagReasonWrongDate": "Malĝusta dato",
-		"ModerationFlagReasonOther": "Other",
+		"ModerationFlagReasonOther": "Aliaj",
 		"ModerationFlagCreateSuccess": "Dankon pro via raporto!",
 		"ModerationFlagStatusOpen": "Malferma",
 		"ModerationFlagStatusClosed": "Fermita",
@@ -356,6 +362,7 @@
 		"Open": "Malferma",
 		"OpenWithTheAssistant": "Open with the assistant",
 		"Order": "Order",
+		"OrderNameASC": "Nomo",
 		"OrderLocationCountDESC": "Location count",
 		"OrderProductUniqueScansDESC": "Number of scans",
 		"OrderProductPriceCountDESC": "Number of prices",
@@ -368,7 +375,7 @@
 		"OrderProofCreatedDESC": "Addition date",
 		"OrderProofDateDESC": "Proof date",
 		"OrderUserCountDESC": "User count",
-		"Other": "Other",
+		"Other": "Aliaj",
 		"OtherContributions": "Other contributions",
 		"PageNotMaintainedAnymore": "Ĉi tiu paĝo ne plu estas prizorgata.",
 		"PersonalInfo": "Personal information",
@@ -385,6 +392,8 @@
 		"PicturesAddedByYou": "Pictures added by you",
 		"PRICE_TAG": "Price tag",
 		"PriceTags": "Prezetikedoj",
+		"PriceTagsBoundingBoxesDisplay": "Display price tag bounding boxes",
+		"PriceTagsBoundingBoxesHide": "Hide price tag bounding boxes",
 		"PriceCount": "{count} prices | {count} price | {count} prices",
 		"PriceAddedCount": "{count} prices added | {count} price added | {count} prices added",
 		"PriceAddProgress": "{numberOfPricesAdded} / {totalNumberOfPrices} prices added",
@@ -395,6 +404,7 @@
 		"PriceAlreadyUploaded": "Prezo jam alŝutita",
 		"PriceReadyToBeUploaded": "Prezo preta por esti alŝutita",
 		"PricesAlreadyUploaded": "Prezoj jam alŝutitaj",
+		"PricesAll": "Ĉiuj prezoj",
 		"PricesMore": "More prices",
 		"PricesAdded": "Prices added",
 		"PricesAddedToday": "Prices added today",
@@ -402,7 +412,7 @@
 		"PriceNotFound": "Price not found",
 		"PricesAddedByYou": "Prezoj aldonitaj de vi",
 		"Private": "Private",
-		"Privacy": "Privacy",
+		"Privacy": "Privateco",
 		"ProductCount": "{count} products | {count} product | {count} products",
 		"ProductFind": "Find the product",
 		"ProductMissing": "Produkto mankas",
@@ -423,6 +433,7 @@
 		"Quantity": "Kvanto",
 		"QuantityBought": "Quantity bought",
 		"QuantityMissing": "Quantity missing",
+		"Rank": "Rango",
 		"Reason": "Reason",
 		"RECEIPT": "Receipt",
 		"Receipt": "Receipt",
@@ -433,7 +444,8 @@
 		"ReceiptOnlineDeliveryCosts": "Delivery costs",
 		"Recent": "Recent",
 		"Re-open": "Remalfermi",
-		"ReportProblem": "Report a problem",
+		"ReportProblem": "Raporti problemon",
+		"Reset": "Reset",
 		"Resolved": "Solvita",
 		"Reuses": "Reuses",
 		"ReusesKnown": "Known reuses",
@@ -441,17 +453,17 @@
 		"Select": "Select",
 		"Send": "Sendi",
 		"Settings": "Agordoj",
-		"SignInOFFAccount": "Sign in with your {url} account",
+		"SignInOFFAccount": "Sign in with your {url} credentials",
 		"SignedIn": "Signed in!",
 		"SignIn": "Ensaluti",
 		"SignOut": "Sign out",
 		"SideMenu": "Side menu",
 		"Share": "Share",
-		"Source": "Source",
+		"Source": "Fonto",
 		"SourceCode": "Source code",
-		"Start": "Start",
+		"Start": "Komencu",
 		"Stats": "Stats",
-		"Status": "Status",
+		"Status": "Statuso",
 		"SuggestedBarcode": "Sugestita strekkodo:",
 		"Summary": "Resumo",
 		"TaglineOriginal": "An open crowdsourced database of food prices",
@@ -470,7 +482,7 @@
 		"TopCountries": "Supraj landoj",
 		"Today": "Today",
 		"Top": "Top",
-		"Total": "Total",
+		"Total": "Totalo",
 		"Truncate": "Truncate",
 		"Truncated": "Truncated",
 		"TryItOut": "Provu ĝin",
@@ -516,7 +528,7 @@
 		"No": "Ne",
 		"Food": "Food",
 		"PetFood": "Pet food",
-		"Beauty": "Beauty"
+		"Beauty": "Beleco"
 	},
 	"ContributionAssistant": {
 		"Steps": {
@@ -748,7 +760,7 @@
 		"ProofNotFound": "Proof not found",
 		"Public": "Public",
 		"Private": "Private",
-		"Privacy": "Privacy"
+		"Privacy": "Privateco"
 	},
 	"ProofEdit": {
 		"Title": "Edit a proof",
@@ -808,6 +820,12 @@
 		"AddProofsPriceTags": {
 			"Title": "Add proofs (price tags)"
 		},
+		"CompareLocations": {
+			"Title": "Compare 2 locations"
+		},
+		"Explore": {
+			"Title": "Esplori"
+		},
 		"Locations": {
 			"Title": "Locations"
 		},
@@ -835,11 +853,17 @@
 		"Receipt": {
 			"Title": "Receipt"
 		},
+		"Cities": {
+			"Title": "Urboj"
+		},
 		"Community": {
 			"Title": "Community"
 		},
 		"Contribute": {
 			"Title": "Kontribui"
+		},
+		"Countries": {
+			"Title": "Countries"
 		},
 		"CreateOffProduct": {
 			"Title": "Create Product"
@@ -848,7 +872,8 @@
 			"Title": "Experiments"
 		},
 		"Home": {
-			"Title": "Ĉefpaĝo"
+			"Title": "Ĉefpaĝo",
+			"Help": "{op_name} is a project to collect and share prices of products around the world. It's a publicly available dataset that can be used for research, analysis, and more!"
 		},
 		"Dashboard": {
 			"Title": "Dashboard"
@@ -904,9 +929,6 @@
 		"ProofPriceTagAssistant": {
 			"Title": "Asistanto pri Pruva Prezetikedo"
 		},
-		"PriceValidationAssistant": {
-			"Title": "Price Validation Assistant"
-		},
 		"ReceiptAssistant": {
 			"Title": "Receipt Assistant"
 		},
@@ -914,13 +936,15 @@
 			"Title": "Challenge"
 		},
 		"Challenges": {
-			"Title": "Challenges"
+			"Title": "Challenges",
+			"Help": "Challenges are a way for the community to focus their efforts and gather prices of specific products. They usually last a month, and contributors are ranked by their contribution.\n\nCheck the ongoing challenges below to participate, or visit the past challenges data."
 		},
 		"CommunityChallenge": {
 			"Title": "Community challenge"
 		},
 		"Validate": {
-			"Title": "Validate"
+			"Title": "Validate",
+			"Help": "After a few seconds, price tags information is automatically extracted from uploaded pictures, but help is still needed to validate its accuracy. This is done as a community effort.\n\nFor each price tag shown, check that the price, barcode or category are correct, fix them if needed and confirm. When you confirm a price, it's added to the public database and shared with the community.\n\nUnreadable or invalid prices can be marked as errors. If you're unsure, you can ignore the price and let another contributor have a go at it."
 		},
 		"ValidatePrices": {
 			"Title": "Validate prices"
@@ -940,6 +964,7 @@
 		"ServerError": "Error: server error",
 		"Title": "Ensaluti",
 		"SignInOFFAccount": "Sign in with your {url} account",
+		"SignInWithOpenFoodFactsAuth": "Sign in with {off_name} auth",
 		"UsernameLabel": "Username",
 		"WrongCredentials": "Error: wrong credentials"
 	},
@@ -954,7 +979,7 @@
 		"Products": "Produktoj",
 		"Locations": "Locations",
 		"Users": "Users",
-		"Total": "Total",
+		"Total": "Totalo",
 		"WithPrice": "With a price",
 		"WithProduct": "With a product",
 		"WithProductBarcode": "With a product barcode",
@@ -997,6 +1022,7 @@
 		"CurrencyLabel": "Currency",
 		"DisplayTitle": "Display",
 		"BarcodeScanner": "Barcode scanner",
+		"BarcodeScannerLibrary": "Barcode scanner library",
 		"DefaultMode": "Default mode",
 		"FavoriteCurrencies": "Favorite currencies",
 		"CurrencyRequired": "At least one currency is required",

@@ -226,6 +226,7 @@
 		"Contributors": "Kontributor",
 		"Contributions": "Kontribusi",
 		"Confirm": "Konfirmasi",
+		"Count": "Hitung",
 		"Country": "Negara",
 		"Countries": "Negara - negara",
 		"CountryCount": "{count} negara | {count} negara | {count} negara",
@@ -248,6 +249,7 @@
 		"Error": "Kesalahan",
 		"Experiment": "Percobaan",
 		"Experiments": "Eksperimen",
+		"Explore": "Mengeksplorasi",
 		"FromPriceTag": "Dari label harga",
 		"FromReceipt": "Dari tanda terima",
 		"GoToProof": "Buka bukti",
@@ -259,6 +261,7 @@
 		"Languages": "Bahasa",
 		"LatestPrices": "Harga terbaru",
 		"LatestProofs": "Bukti terbaru",
+		"LearnMore": "Pelajari lebih lanjut",
 		"LoadMore": "Muat lebih banyak",
 		"Location": "Lokasi",
 		"Locations": "Lokasi",
@@ -266,6 +269,7 @@
 		"LocationFindShop": "Temukan lokasi toko",
 		"LocationMissing": "Lokasi tidak ada",
 		"LocationSearchByName": "Cari berdasarkan nama dan kota",
+		"LocationsCompare": "Compare 2 locations",
 		"Date": "Tanggal",
 		"DateMissing": "Tanggal tidak ada",
 		"DateProofHelpText": "Tanggal foto tersebut.",
@@ -296,6 +300,8 @@
 		"FieldIsRequired": "Bidang wajib diisi",
 		"Filter": "Filter",
 		"FilterChallengesShowAllStatus": "Tampilkan semua tantangan",
+		"FilterWithPriceCount": "Dengan harga",
+		"FilterWithLocationCount": "Dengan lokasi",
 		"FilterProductWithPriceCount": "Dengan harga",
 		"FilterProductWithPriceCountHide": "Sembunyikan produk dengan harga",
 		"FilterProductWithoutPriceCount": "Tanpa harga",
@@ -356,6 +362,7 @@
 		"Open": "Membuka",
 		"OpenWithTheAssistant": "Buka dengan Asisten",
 		"Order": "Urutan",
+		"OrderNameASC": "Nama",
 		"OrderLocationCountDESC": "Jumlah lokasi",
 		"OrderProductUniqueScansDESC": "Jumlah pindaian",
 		"OrderProductPriceCountDESC": "Jumlah harga",
@@ -385,6 +392,8 @@
 		"PicturesAddedByYou": "Foto yang Anda tambahkan",
 		"PRICE_TAG": "Label harga",
 		"PriceTags": "Label harga",
+		"PriceTagsBoundingBoxesDisplay": "Display price tag bounding boxes",
+		"PriceTagsBoundingBoxesHide": "Hide price tag bounding boxes",
 		"PriceCount": "{count} harga | {count} harga | {count} harga",
 		"PriceAddedCount": "{count} harga ditambahkan | {count} harga ditambahkan | {count} harga ditambahkan",
 		"PriceAddProgress": "{numberOfPricesAdded} / {totalNumberOfPrices} harga ditambahkan",
@@ -395,6 +404,7 @@
 		"PriceAlreadyUploaded": "Harga sudah diunggah",
 		"PriceReadyToBeUploaded": "Harga siap diunggah",
 		"PricesAlreadyUploaded": "Harga sudah diunggah",
+		"PricesAll": "Semua harga",
 		"PricesMore": "Harga lebih lanjut",
 		"PricesAdded": "Harga ditambahkan",
 		"PricesAddedToday": "Harga yang ditambahkan hari ini",
@@ -423,6 +433,7 @@
 		"Quantity": "Kuantitas",
 		"QuantityBought": "Kuantitas yang dibeli",
 		"QuantityMissing": "Jumlah tidak ada",
+		"Rank": "Pangkat",
 		"Reason": "Alasan",
 		"RECEIPT": "Resi",
 		"Receipt": "Resi",
@@ -434,6 +445,7 @@
 		"Recent": "Terbaru",
 		"Re-open": "Buka kembali",
 		"ReportProblem": "Laporkan masalah",
+		"Reset": "Atur ulang",
 		"Resolved": "Terselesaikan",
 		"Reuses": "Penggunaan kembali",
 		"ReusesKnown": "Penggunaan kembali yang diketahui",
@@ -441,7 +453,7 @@
 		"Select": "Pilih",
 		"Send": "Kirim",
 		"Settings": "Pengaturan",
-		"SignInOFFAccount": "Masuk dengan akun {url} Anda",
+		"SignInOFFAccount": "Sign in with your {url} credentials",
 		"SignedIn": "Masuk!",
 		"SignIn": "Masuk",
 		"SignOut": "Keluar",
@@ -808,6 +820,12 @@
 		"AddProofsPriceTags": {
 			"Title": "Add proofs (price tags)"
 		},
+		"CompareLocations": {
+			"Title": "Compare 2 locations"
+		},
+		"Explore": {
+			"Title": "Mengeksplorasi"
+		},
 		"Locations": {
 			"Title": "Lokasi"
 		},
@@ -835,11 +853,17 @@
 		"Receipt": {
 			"Title": "Resi"
 		},
+		"Cities": {
+			"Title": "Kota-kota"
+		},
 		"Community": {
 			"Title": "Komunitas"
 		},
 		"Contribute": {
 			"Title": "Berkontribusi"
+		},
+		"Countries": {
+			"Title": "Negara - negara"
 		},
 		"CreateOffProduct": {
 			"Title": "Create Product"
@@ -848,7 +872,8 @@
 			"Title": "Eksperimen"
 		},
 		"Home": {
-			"Title": "Beranda"
+			"Title": "Beranda",
+			"Help": "{op_name} is a project to collect and share prices of products around the world. It's a publicly available dataset that can be used for research, analysis, and more!"
 		},
 		"Dashboard": {
 			"Title": "Dasbor"
@@ -904,9 +929,6 @@
 		"ProofPriceTagAssistant": {
 			"Title": "Asisten Label Harga Bukti"
 		},
-		"PriceValidationAssistant": {
-			"Title": "Asisten Validasi Harga"
-		},
 		"ReceiptAssistant": {
 			"Title": "Asisten Bukti Pembayaran"
 		},
@@ -914,13 +936,15 @@
 			"Title": "Tantangan"
 		},
 		"Challenges": {
-			"Title": "Tantangan"
+			"Title": "Tantangan",
+			"Help": "Challenges are a way for the community to focus their efforts and gather prices of specific products. They usually last a month, and contributors are ranked by their contribution.\n\nCheck the ongoing challenges below to participate, or visit the past challenges data."
 		},
 		"CommunityChallenge": {
 			"Title": "Tantangan komunitas"
 		},
 		"Validate": {
-			"Title": "Validasikan"
+			"Title": "Validasikan",
+			"Help": "After a few seconds, price tags information is automatically extracted from uploaded pictures, but help is still needed to validate its accuracy. This is done as a community effort.\n\nFor each price tag shown, check that the price, barcode or category are correct, fix them if needed and confirm. When you confirm a price, it's added to the public database and shared with the community.\n\nUnreadable or invalid prices can be marked as errors. If you're unsure, you can ignore the price and let another contributor have a go at it."
 		},
 		"ValidatePrices": {
 			"Title": "Validasi harga"
@@ -940,6 +964,7 @@
 		"ServerError": "Kesalahan: kesalahan server",
 		"Title": "Masuk",
 		"SignInOFFAccount": "Masuk dengan akun {url} Anda",
+		"SignInWithOpenFoodFactsAuth": "Sign in with {off_name} auth",
 		"UsernameLabel": "Nama pengguna",
 		"WrongCredentials": "Kesalahan: kredensial salah"
 	},
@@ -997,6 +1022,7 @@
 		"CurrencyLabel": "Mata uang",
 		"DisplayTitle": "Tampilan",
 		"BarcodeScanner": "Pemindai kode batang",
+		"BarcodeScannerLibrary": "Barcode scanner library",
 		"DefaultMode": "Mode bawaan",
 		"FavoriteCurrencies": "Mata uang favorit",
 		"CurrencyRequired": "Setidaknya diperlukan satu mata uang",

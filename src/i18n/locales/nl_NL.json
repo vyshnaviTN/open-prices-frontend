@@ -226,6 +226,7 @@
 		"Contributors": "Medewerkers",
 		"Contributions": "Bijdragen",
 		"Confirm": "Bevestig",
+		"Count": "Aantal",
 		"Country": "Land",
 		"Countries": "Landen",
 		"CountryCount": "{count} landen | {count} land | {count} landen",
@@ -248,6 +249,7 @@
 		"Error": "Foutmelding",
 		"Experiment": "Experiment",
 		"Experiments": "Experimenten",
+		"Explore": "Ontdekken",
 		"FromPriceTag": "Van een prijskaartje",
 		"FromReceipt": "Van een bonnetje",
 		"GoToProof": "Ga naar bewijs",
@@ -259,6 +261,7 @@
 		"Languages": "Talen",
 		"LatestPrices": "Nieuwste prijzen",
 		"LatestProofs": "Nieuwste bewijzen",
+		"LearnMore": "Meer informatie",
 		"LoadMore": "Meer laden",
 		"Location": "Locatie",
 		"Locations": "Locaties",
@@ -266,6 +269,7 @@
 		"LocationFindShop": "Zoek de winkellocatie",
 		"LocationMissing": "Locatie ontbreekt",
 		"LocationSearchByName": "Zoek op naam en stad",
+		"LocationsCompare": "2 locaties vergelijken",
 		"Date": "Datum",
 		"DateMissing": "Datum ontbreekt",
 		"DateProofHelpText": "Datum van de foto.",
@@ -296,6 +300,8 @@
 		"FieldIsRequired": "Veld is verplicht",
 		"Filter": "Filter",
 		"FilterChallengesShowAllStatus": "Toon alle uitdagingen",
+		"FilterWithPriceCount": "Met prijzen",
+		"FilterWithLocationCount": "Met locaties",
 		"FilterProductWithPriceCount": "Met een prijs",
 		"FilterProductWithPriceCountHide": "Verberg producten met prijzen",
 		"FilterProductWithoutPriceCount": "Zonder prijzen",
@@ -338,7 +344,7 @@
 		"ModerationFlagReasonWrongLocation": "Verkeerde locatie",
 		"ModerationFlagReasonWrongDate": "Verkeerde datum",
 		"ModerationFlagReasonOther": "Andere",
-		"ModerationFlagCreateSuccess": "Bedankt voor je verslag!",
+		"ModerationFlagCreateSuccess": "Bedankt voor je melding!",
 		"ModerationFlagStatusOpen": "Open",
 		"ModerationFlagStatusClosed": "Gesloten",
 		"MyConsumption": "Mijn verbruik",
@@ -356,6 +362,7 @@
 		"Open": "Open",
 		"OpenWithTheAssistant": "Openen met de assistent",
 		"Order": "Sorteren",
+		"OrderNameASC": "Naam",
 		"OrderLocationCountDESC": "Aantal locaties",
 		"OrderProductUniqueScansDESC": "Aantal scans",
 		"OrderProductPriceCountDESC": "Aantal prijzen",
@@ -385,16 +392,19 @@
 		"PicturesAddedByYou": "Door jou toegevoegde foto's",
 		"PRICE_TAG": "Prijskaartje",
 		"PriceTags": "Prijskaartjes",
+		"PriceTagsBoundingBoxesDisplay": "Begrenzingskaders voor prijskaartjes weergeven",
+		"PriceTagsBoundingBoxesHide": "Begrenzingskaders voor prijskaartjes verbergen",
 		"PriceCount": "{count} prijzen | {count} prijs | {count} prijzen",
 		"PriceAddedCount": "{count} prijzen toegevoegd | {count} prijs toegevoegd | {count} prijzen toegevoegd",
 		"PriceAddProgress": "{numberOfPricesAdded} / {totalNumberOfPrices} prijzen toegevoegd",
 		"PriceToValidateCount": "{count} te valideren prijzen | {count} te valideren prijs | {count} te valideren prijzen",
 		"PriceCreated": "Prijs aangemaakt!",
 		"PriceMissing": "Prijs ontbreekt",
-		"PricePerMissing": "Prijs per ontbrekende",
+		"PricePerMissing": "",
 		"PriceAlreadyUploaded": "Prijs al geüpload",
 		"PriceReadyToBeUploaded": "Prijs klaar om te worden geüpload",
 		"PricesAlreadyUploaded": "Prijzen al geüpload",
+		"PricesAll": "Alle prijzen",
 		"PricesMore": "Meer prijzen",
 		"PricesAdded": "Prijzen toegevoegd",
 		"PricesAddedToday": "Vandaag toegevoegde prijzen",
@@ -423,6 +433,7 @@
 		"Quantity": "Hoeveelheid",
 		"QuantityBought": "Gekochte hoeveelheid",
 		"QuantityMissing": "Hoeveelheid ontbreekt",
+		"Rank": "Rang",
 		"Reason": "Reden",
 		"RECEIPT": "Bon",
 		"Receipt": "Bon",
@@ -434,6 +445,7 @@
 		"Recent": "Recent",
 		"Re-open": "Heropenen",
 		"ReportProblem": "Meld een probleem",
+		"Reset": "Herstellen",
 		"Resolved": "Opgelost",
 		"Reuses": "Hergebruik",
 		"ReusesKnown": "Bekende hergebruiken",
@@ -441,7 +453,7 @@
 		"Select": "Selecteren",
 		"Send": "Verzenden",
 		"Settings": "Instellingen",
-		"SignInOFFAccount": "Meld u aan met uw {url} account",
+		"SignInOFFAccount": "Sign in with your {url} credentials",
 		"SignedIn": "Ingelogd!",
 		"SignIn": "Inloggen",
 		"SignOut": "Uitloggen",
@@ -500,7 +512,7 @@
 		"UserIsModeratorCanEditProof": "U kunt dit bewijs bewerken omdat u een moderator bent",
 		"UserIsModeratorCanDeleteProof": "U kunt dit bewijs verwijderen omdat u een moderator bent",
 		"UserIsNotPriceOwner": "U bent niet de eigenaar van de prijs",
-		"UserIsNotProofOwner": "U bent niet de bewezen eigenaar",
+		"UserIsNotProofOwner": "U bent niet de eigenaar van het bewijsmateriaal",
 		"UserNotFound": "Gebruiker niet gevonden",
 		"Validate": "Bevestigen",
 		"ValidatePrices": "Prijzen valideren",
@@ -585,7 +597,7 @@
 		"ProofNumberOfOutProofs": "Bewijs ({numberOfOutProofs}/{totalNumberOfProofs})",
 		"StoresWhereSold": "Winkels waar verkocht",
 		"UseCropModeToAddImage": "Om een productafbeelding toe te voegen, schakelt u de bijsnijdmodus onder de proefafbeelding in en tekent u een rechthoek rond het product.",
-		"ProductMissingPromoBanner": "Experiment: creëer dit product met behulp van gegevens van Open Prices."
+		"ProductMissingPromoBanner": "Experiment: maak dit product met behulp van gegevens uit Open Prices"
 	},
 	"UserRecentProofsDialog": {
 		"SelectRecentProof": "Selecteer een van uw recente bewijzen"
@@ -803,10 +815,16 @@
 			"Title": "Voeg meerdere bewijzen toe"
 		},
 		"AddProofReceipt": {
-			"Title": "Voeg bewijs (bon) toe"
+			"Title": "Bewijs toevoegen (bon)"
 		},
 		"AddProofsPriceTags": {
 			"Title": "Bewijzen toevoegen (prijskaartjes)"
+		},
+		"CompareLocations": {
+			"Title": "2 locaties vergelijken"
+		},
+		"Explore": {
+			"Title": "Ontdekken"
 		},
 		"Locations": {
 			"Title": "Locaties"
@@ -835,11 +853,17 @@
 		"Receipt": {
 			"Title": "Bon"
 		},
+		"Cities": {
+			"Title": "Plaatsen"
+		},
 		"Community": {
 			"Title": "Gemeenschap"
 		},
 		"Contribute": {
 			"Title": "Bijdragen"
+		},
+		"Countries": {
+			"Title": "Landen"
 		},
 		"CreateOffProduct": {
 			"Title": "Product aanmaken"
@@ -848,7 +872,8 @@
 			"Title": "Experimenten"
 		},
 		"Home": {
-			"Title": "Hoofdmenu"
+			"Title": "Hoofdmenu",
+			"Help": "{op_name} is een project om prijzen van producten over de hele wereld te verzamelen en te delen. Het is een openbaar beschikbare dataset die kan worden gebruikt voor onderzoek, analyse en meer!"
 		},
 		"Dashboard": {
 			"Title": "Dashboard"
@@ -904,9 +929,6 @@
 		"ProofPriceTagAssistant": {
 			"Title": "Assistent voor het bewijzen van de prijs"
 		},
-		"PriceValidationAssistant": {
-			"Title": "Prijsvalidatie-assistent"
-		},
 		"ReceiptAssistant": {
 			"Title": "Ontvangstbewijs assistent"
 		},
@@ -914,13 +936,15 @@
 			"Title": "Uitdaging"
 		},
 		"Challenges": {
-			"Title": "Uitdagingen"
+			"Title": "Uitdagingen",
+			"Help": "Uitdagingen zijn een manier voor de gemeenschap om hun inspanningen te bundelen en prijzen van specifieke producten te verzamelen. Ze duren meestal een maand en deelnemers worden gerangschikt op basis van hun bijdrage. Bekijk hieronder de lopende uitdagingen om deel te nemen, of bekijk de gegevens van eerdere uitdagingen."
 		},
 		"CommunityChallenge": {
 			"Title": "Uitdaging voor de gemeenschap"
 		},
 		"Validate": {
-			"Title": "Bevestigen"
+			"Title": "Bevestigen",
+			"Help": "Na enkele seconden wordt de informatie op de prijskaartjes automatisch uit de geüploade foto's gehaald, maar er is nog steeds hulp nodig om de juistheid ervan te controleren. Dit gebeurt door middel van een gezamenlijke inspanning van de community.\n\nControleer voor elk weergegeven prijskaartje of de prijs, barcode of categorie correct is, corrigeer deze indien nodig en bevestig. Wanneer u een prijs bevestigt, wordt deze toegevoegd aan de openbare database en gedeeld met de community. Onleesbare of ongeldige prijzen kunnen als fouten worden gemarkeerd. Als u twijfelt, kunt u de prijs negeren en een andere bijdrager ernaar laten kijken."
 		},
 		"ValidatePrices": {
 			"Title": "Prijzen valideren"
@@ -940,6 +964,7 @@
 		"ServerError": "Fout: serverfout",
 		"Title": "Inloggen",
 		"SignInOFFAccount": "Meld u aan met uw {url} account",
+		"SignInWithOpenFoodFactsAuth": "Sign in with {off_name} auth",
 		"UsernameLabel": "Gebruikersnaam",
 		"WrongCredentials": "Fout: verkeerde inloggegevens"
 	},
@@ -997,6 +1022,7 @@
 		"CurrencyLabel": "Valuta",
 		"DisplayTitle": "Weergave",
 		"BarcodeScanner": "Streepjescodescanner",
+		"BarcodeScannerLibrary": "Bibliotheek Barcodescanner",
 		"DefaultMode": "Standaardmodus",
 		"FavoriteCurrencies": "Favoriete valuta",
 		"CurrencyRequired": "Er is minimaal één valuta vereist",

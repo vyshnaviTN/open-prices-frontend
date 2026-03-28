@@ -262,18 +262,31 @@
         <v-divider />
         <v-card-actions>
           <v-row>
-            <v-col>
+            <v-col cols="6">
               <v-btn
                 color="primary"
                 variant="flat"
                 type="submit"
                 :disabled="shownProofIndex === 0"
+                block
                 @click="previousProof()"
               >
                 {{ $t('CreateOffProduct.PreviousProof') }}
               </v-btn>
             </v-col>
-            <v-col>
+            <v-col cols="6">
+              <v-btn
+                color="primary"
+                variant="flat"
+                type="submit"
+                :disabled="shownProofIndex === priceList.length - 1"
+                block
+                @click="nextProof()"
+              >
+                {{ $t('CreateOffProduct.NextProof') }}
+              </v-btn>
+            </v-col>
+            <v-col cols="12" class="d-flex justify-center">
               <v-switch
                 v-model="imageEditMode"
                 density="compact"
@@ -282,17 +295,6 @@
                 :true-value="true"
                 hide-details="auto"
               />
-            </v-col>
-            <v-col>
-              <v-btn
-                color="primary"
-                variant="flat"
-                type="submit"
-                :disabled="shownProofIndex === priceList.length - 1"
-                @click="nextProof()"
-              >
-                {{ $t('CreateOffProduct.NextProof') }}
-              </v-btn>
             </v-col>
           </v-row>
         </v-card-actions>
@@ -344,7 +346,7 @@
 import { defineAsyncComponent } from 'vue'
 import { mapStores } from 'pinia'
 import { useAppStore } from '../store'
-import api from '../services/api'
+import openPricesApi from '../services/openPricesApi'
 import constants from '../constants'
 import proof_utils from '../utils/proof.js'
 import utils from '../utils'
@@ -438,14 +440,14 @@ export default {
       this.getChallenges()
     },
     getProduct(callback) {
-      return api.getProductByCode(this.productForm.product_code)
+      return openPricesApi.getProductByCode(this.productForm.product_code)
         .then((product) => {
           this.product = product
           if(callback) callback(product)
         })
     },
     getPrices(product) {
-      return api.getPrices({product_code: this.productForm.product_code, order_by: constants.PRICE_ORDER_LIST[2].key })
+      return openPricesApi.getPrices({product_code: this.productForm.product_code, order_by: constants.PRICE_ORDER_LIST[2].key })
         .then((data) => {
           this.priceList = data.items
           if (this.priceList.length) {
@@ -487,7 +489,7 @@ export default {
         })
     },
     getChallenges() {
-      return api.getChallenges({ order_by: '-created' })
+      return openPricesApi.getChallenges({ order_by: '-created' })
         .then((data) => {
           const challenges = data.items
           const challengeCategories = challenges.map(challenge => challenge.categories) // Array of arrays
@@ -495,7 +497,7 @@ export default {
         })
     },
     getMissingProductsWithPrices() {
-      return api.getProducts({ price_count__gte: 1, source__isnull: true, order_by: '-proof_count' })
+      return openPricesApi.getProducts({ price_count__gte: 1, source__isnull: true, order_by: '-proof_count' })
         .then((data) => {
           this.missingProductsWithPrices = data.items
         })
@@ -521,7 +523,7 @@ export default {
       }
       this.step = 3
       this.loading = true
-      api
+      openPricesApi
         .updateOffProduct(this.productForm.product_code, inputData)
         .then(() => {
           if (this.drawnImageSrc) {
@@ -531,7 +533,7 @@ export default {
               flavor: flavorkey,
               product_language_code: this.productForm.product_language
             }
-            api.updateOffProductImage(this.productForm.product_code, inputData)
+            openPricesApi.updateOffProductImage(this.productForm.product_code, inputData)
               .then(() => {
                 this.loading = false
                 this.getProduct()
@@ -553,7 +555,7 @@ export default {
 
     },
     loadPriceTags(priceId) {
-      api.getPriceTags({price_id: priceId}).then(data => {
+      openPricesApi.getPriceTags({price_id: priceId}).then(data => {
         const priceTags = data.items
         if (priceTags.length) {
           this.boundingBoxesFromServer = [

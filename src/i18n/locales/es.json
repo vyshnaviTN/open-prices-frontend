@@ -226,6 +226,7 @@
 		"Contributors": "Colaboradores",
 		"Contributions": "Contribuciones",
 		"Confirm": "Confirmar",
+		"Count": "Recuento",
 		"Country": "País",
 		"Countries": "Países",
 		"CountryCount": "{count} países | {count} país | {count} países",
@@ -248,6 +249,7 @@
 		"Error": "Error",
 		"Experiment": "Experimento",
 		"Experiments": "Experimentos",
+		"Explore": "Explorar",
 		"FromPriceTag": "Desde una etiqueta de precio",
 		"FromReceipt": "De un recibo",
 		"GoToProof": "Ir a la prueba",
@@ -259,6 +261,7 @@
 		"Languages": "Idiomas",
 		"LatestPrices": "Últimos precios",
 		"LatestProofs": "Últimos comprobantes",
+		"LearnMore": "Saber más",
 		"LoadMore": "Cargar más",
 		"Location": "Ubicación",
 		"Locations": "Ubicaciones",
@@ -266,6 +269,7 @@
 		"LocationFindShop": "Encuentra la ubicación de la tienda",
 		"LocationMissing": "Falta ubicación",
 		"LocationSearchByName": "Buscar por nombre y ciudad",
+		"LocationsCompare": "Compare 2 locations",
 		"Date": "Fecha",
 		"DateMissing": "Falta fecha",
 		"DateProofHelpText": "Fecha de la imagen.",
@@ -296,6 +300,8 @@
 		"FieldIsRequired": "El campo es obligatorio",
 		"Filter": "Filtro",
 		"FilterChallengesShowAllStatus": "Mostrar todos los desafíos",
+		"FilterWithPriceCount": "Con precios",
+		"FilterWithLocationCount": "Con ubicaciones",
 		"FilterProductWithPriceCount": "con precio",
 		"FilterProductWithPriceCountHide": "Ocultar productos con precios",
 		"FilterProductWithoutPriceCount": "Sin precios",
@@ -356,6 +362,7 @@
 		"Open": "Abierto",
 		"OpenWithTheAssistant": "Abrir con el asistente",
 		"Order": "Pedido",
+		"OrderNameASC": "Nombre",
 		"OrderLocationCountDESC": "Recuento de ubicaciones",
 		"OrderProductUniqueScansDESC": "Número de escaneos",
 		"OrderProductPriceCountDESC": "Número de precios",
@@ -385,6 +392,8 @@
 		"PicturesAddedByYou": "Fotos añadidas por ti",
 		"PRICE_TAG": "Etiqueta de precio",
 		"PriceTags": "etiquetas de precios",
+		"PriceTagsBoundingBoxesDisplay": "Display price tag bounding boxes",
+		"PriceTagsBoundingBoxesHide": "Hide price tag bounding boxes",
 		"PriceCount": "{count} precios | {count} precio | {count} precios",
 		"PriceAddedCount": "{count} precios añadidos | {count} precio añadido | {count} precios añadidos",
 		"PriceAddProgress": "{numberOfPricesAdded} / {totalNumberOfPrices} precios añadidos",
@@ -395,6 +404,7 @@
 		"PriceAlreadyUploaded": "Precio ya subido",
 		"PriceReadyToBeUploaded": "Precio listo para ser cargado",
 		"PricesAlreadyUploaded": "Precios ya subidos",
+		"PricesAll": "Todos los precios",
 		"PricesMore": "Más precios",
 		"PricesAdded": "Precios añadidos",
 		"PricesAddedToday": "Precios añadidos hoy",
@@ -423,6 +433,7 @@
 		"Quantity": "Cantidad",
 		"QuantityBought": "Cantidad comprada",
 		"QuantityMissing": "Falta la cantidad",
+		"Rank": "Rango",
 		"Reason": "Razón",
 		"RECEIPT": "Ticket",
 		"Receipt": "Ticket",
@@ -434,6 +445,7 @@
 		"Recent": "Reciente",
 		"Re-open": "Reabrir",
 		"ReportProblem": "Informar de un problema",
+		"Reset": "Reiniciar",
 		"Resolved": "Resuelto",
 		"Reuses": "Reutilizaciones",
 		"ReusesKnown": "Reutilizaciones conocidas",
@@ -441,7 +453,7 @@
 		"Select": "Seleccionar",
 		"Send": "Enviar",
 		"Settings": "Configuración",
-		"SignInOFFAccount": "Inicia sesión con tu cuenta de {url}",
+		"SignInOFFAccount": "Sign in with your {url} credentials",
 		"SignedIn": "¡Sesión iniciada!",
 		"SignIn": "Iniciar sesión",
 		"SignOut": "Cerrar sesión",
@@ -808,6 +820,12 @@
 		"AddProofsPriceTags": {
 			"Title": "Añadir pruebas (etiquetas de precios)"
 		},
+		"CompareLocations": {
+			"Title": "Compare 2 locations"
+		},
+		"Explore": {
+			"Title": "Explorar"
+		},
 		"Locations": {
 			"Title": "Ubicaciones"
 		},
@@ -835,11 +853,17 @@
 		"Receipt": {
 			"Title": "Ticket"
 		},
+		"Cities": {
+			"Title": "Ciudades"
+		},
 		"Community": {
 			"Title": "Comunidad"
 		},
 		"Contribute": {
 			"Title": "Contribuir"
+		},
+		"Countries": {
+			"Title": "Países"
 		},
 		"CreateOffProduct": {
 			"Title": "Crear producto"
@@ -848,7 +872,8 @@
 			"Title": "Experimentos"
 		},
 		"Home": {
-			"Title": "Inicio"
+			"Title": "Inicio",
+			"Help": "{op_name} is a project to collect and share prices of products around the world. It's a publicly available dataset that can be used for research, analysis, and more!"
 		},
 		"Dashboard": {
 			"Title": "Panel de control"
@@ -904,9 +929,6 @@
 		"ProofPriceTagAssistant": {
 			"Title": "Asistente de etiquetas de precio de prueba"
 		},
-		"PriceValidationAssistant": {
-			"Title": "Asistente de validación de precios"
-		},
 		"ReceiptAssistant": {
 			"Title": "Asistente de recibos"
 		},
@@ -914,13 +936,15 @@
 			"Title": "Desafío"
 		},
 		"Challenges": {
-			"Title": "Desafíos"
+			"Title": "Desafíos",
+			"Help": "Challenges are a way for the community to focus their efforts and gather prices of specific products. They usually last a month, and contributors are ranked by their contribution.\n\nCheck the ongoing challenges below to participate, or visit the past challenges data."
 		},
 		"CommunityChallenge": {
 			"Title": "Desafíos de la comunidad"
 		},
 		"Validate": {
-			"Title": "Validar"
+			"Title": "Validar",
+			"Help": "After a few seconds, price tags information is automatically extracted from uploaded pictures, but help is still needed to validate its accuracy. This is done as a community effort.\n\nFor each price tag shown, check that the price, barcode or category are correct, fix them if needed and confirm. When you confirm a price, it's added to the public database and shared with the community.\n\nUnreadable or invalid prices can be marked as errors. If you're unsure, you can ignore the price and let another contributor have a go at it."
 		},
 		"ValidatePrices": {
 			"Title": "Validar precios"
@@ -940,6 +964,7 @@
 		"ServerError": "Error: error del servidor",
 		"Title": "Iniciar sesión",
 		"SignInOFFAccount": "Inicia sesión con tu cuenta de {url}",
+		"SignInWithOpenFoodFactsAuth": "Sign in with {off_name} auth",
 		"UsernameLabel": "Nombre de usuario",
 		"WrongCredentials": "Error: credenciales incorrectas"
 	},
@@ -997,6 +1022,7 @@
 		"CurrencyLabel": "Moneda",
 		"DisplayTitle": "Mostrar",
 		"BarcodeScanner": "Escáner de código de barras",
+		"BarcodeScannerLibrary": "Barcode scanner library",
 		"DefaultMode": "Modo predeterminado",
 		"FavoriteCurrencies": "Divisas favoritas",
 		"CurrencyRequired": "Se necsita por lo menos una divisa",

@@ -226,6 +226,7 @@
 		"Contributors": "合作者",
 		"Contributions": "貢獻",
 		"Confirm": "確認",
+		"Count": "次數",
 		"Country": "國家",
 		"Countries": "國家 ",
 		"CountryCount": "{count} countries | {count} country | {count} countries",
@@ -248,6 +249,7 @@
 		"Error": "錯誤",
 		"Experiment": "實驗",
 		"Experiments": "實驗",
+		"Explore": "探索",
 		"FromPriceTag": "從價格標籤來看",
 		"FromReceipt": "從收據上",
 		"GoToProof": "Go to proof",
@@ -259,6 +261,7 @@
 		"Languages": "語言",
 		"LatestPrices": "最新價格",
 		"LatestProofs": "最新證明",
+		"LearnMore": "瞭解更多",
 		"LoadMore": "載入更多",
 		"Location": "地點",
 		"Locations": "地點",
@@ -266,6 +269,7 @@
 		"LocationFindShop": "Find the shop location",
 		"LocationMissing": "缺少地點",
 		"LocationSearchByName": "Search by name and city",
+		"LocationsCompare": "Compare 2 locations",
 		"Date": "日期",
 		"DateMissing": "缺少日期",
 		"DateProofHelpText": "照片拍攝日期。",
@@ -296,6 +300,8 @@
 		"FieldIsRequired": "必填字段",
 		"Filter": "篩選器",
 		"FilterChallengesShowAllStatus": "Show all challenges",
+		"FilterWithPriceCount": "價格",
+		"FilterWithLocationCount": "地點",
 		"FilterProductWithPriceCount": "有價格",
 		"FilterProductWithPriceCountHide": "隱藏有價格的產品",
 		"FilterProductWithoutPriceCount": "沒有價格",
@@ -356,6 +362,7 @@
 		"Open": "打開",
 		"OpenWithTheAssistant": "Open with the assistant",
 		"Order": "順序",
+		"OrderNameASC": "名稱",
 		"OrderLocationCountDESC": "地點總數",
 		"OrderProductUniqueScansDESC": "掃描次數",
 		"OrderProductPriceCountDESC": "價格數量",
@@ -385,6 +392,8 @@
 		"PicturesAddedByYou": "Pictures added by you",
 		"PRICE_TAG": "價格標籤",
 		"PriceTags": "價格標籤",
+		"PriceTagsBoundingBoxesDisplay": "Display price tag bounding boxes",
+		"PriceTagsBoundingBoxesHide": "Hide price tag bounding boxes",
 		"PriceCount": "{count} prices | {count} price | {count} prices",
 		"PriceAddedCount": "{count} prices added | {count} price added | {count} prices added",
 		"PriceAddProgress": "{numberOfPricesAdded} / {totalNumberOfPrices} prices added",
@@ -395,6 +404,7 @@
 		"PriceAlreadyUploaded": "價格已上傳。",
 		"PriceReadyToBeUploaded": "價格資訊已準備好上傳。",
 		"PricesAlreadyUploaded": "價格已上傳",
+		"PricesAll": "所有價格",
 		"PricesMore": "更多價格",
 		"PricesAdded": "Prices added",
 		"PricesAddedToday": "今天新增的價格",
@@ -423,6 +433,7 @@
 		"Quantity": "容量",
 		"QuantityBought": "Quantity bought",
 		"QuantityMissing": "缺少數量",
+		"Rank": "秩",
 		"Reason": "原因",
 		"RECEIPT": "收據",
 		"Receipt": "收據",
@@ -434,6 +445,7 @@
 		"Recent": "最近的",
 		"Re-open": "重新開放",
 		"ReportProblem": "Report a problem",
+		"Reset": "Reset",
 		"Resolved": "已解決",
 		"Reuses": "重複使用",
 		"ReusesKnown": "Known reuses",
@@ -441,7 +453,7 @@
 		"Select": "Select",
 		"Send": "發送",
 		"Settings": "設定",
-		"SignInOFFAccount": "使用您的 {url} 帳號登入",
+		"SignInOFFAccount": "Sign in with your {url} credentials",
 		"SignedIn": "已登入！",
 		"SignIn": "登入",
 		"SignOut": "登出",
@@ -808,6 +820,12 @@
 		"AddProofsPriceTags": {
 			"Title": "Add proofs (price tags)"
 		},
+		"CompareLocations": {
+			"Title": "Compare 2 locations"
+		},
+		"Explore": {
+			"Title": "探索"
+		},
 		"Locations": {
 			"Title": "地點"
 		},
@@ -835,11 +853,17 @@
 		"Receipt": {
 			"Title": "收據"
 		},
+		"Cities": {
+			"Title": "城市"
+		},
 		"Community": {
 			"Title": "Community"
 		},
 		"Contribute": {
 			"Title": "貢獻"
+		},
+		"Countries": {
+			"Title": "國家 "
 		},
 		"CreateOffProduct": {
 			"Title": "Create Product"
@@ -848,7 +872,8 @@
 			"Title": "實驗"
 		},
 		"Home": {
-			"Title": "首頁"
+			"Title": "首頁",
+			"Help": "{op_name} is a project to collect and share prices of products around the world. It's a publicly available dataset that can be used for research, analysis, and more!"
 		},
 		"Dashboard": {
 			"Title": "儀表板"
@@ -904,9 +929,6 @@
 		"ProofPriceTagAssistant": {
 			"Title": "證明價格標籤助手"
 		},
-		"PriceValidationAssistant": {
-			"Title": "Price Validation Assistant"
-		},
 		"ReceiptAssistant": {
 			"Title": "Receipt Assistant"
 		},
@@ -914,13 +936,15 @@
 			"Title": "Challenge"
 		},
 		"Challenges": {
-			"Title": "Challenges"
+			"Title": "Challenges",
+			"Help": "Challenges are a way for the community to focus their efforts and gather prices of specific products. They usually last a month, and contributors are ranked by their contribution.\n\nCheck the ongoing challenges below to participate, or visit the past challenges data."
 		},
 		"CommunityChallenge": {
 			"Title": "Community challenge"
 		},
 		"Validate": {
-			"Title": "驗證"
+			"Title": "驗證",
+			"Help": "After a few seconds, price tags information is automatically extracted from uploaded pictures, but help is still needed to validate its accuracy. This is done as a community effort.\n\nFor each price tag shown, check that the price, barcode or category are correct, fix them if needed and confirm. When you confirm a price, it's added to the public database and shared with the community.\n\nUnreadable or invalid prices can be marked as errors. If you're unsure, you can ignore the price and let another contributor have a go at it."
 		},
 		"ValidatePrices": {
 			"Title": "Validate prices"
@@ -940,6 +964,7 @@
 		"ServerError": "錯誤：伺服器錯誤",
 		"Title": "登入",
 		"SignInOFFAccount": "使用您的 {url} 帳號登入",
+		"SignInWithOpenFoodFactsAuth": "Sign in with {off_name} auth",
 		"UsernameLabel": "使用者名稱",
 		"WrongCredentials": "錯誤：憑證錯誤"
 	},
@@ -997,6 +1022,7 @@
 		"CurrencyLabel": "幣別",
 		"DisplayTitle": "Display",
 		"BarcodeScanner": "Barcode scanner",
+		"BarcodeScannerLibrary": "Barcode scanner library",
 		"DefaultMode": "Default mode",
 		"FavoriteCurrencies": "最喜歡的貨幣",
 		"CurrencyRequired": "至少需要選擇一種貨幣",

@@ -7,7 +7,6 @@ const PRICE_CREATE_FIELDS = PRICE_UPDATE_FIELDS.concat(['location_id', 'location
 const PROOF_UPDATE_FIELDS = ['type', 'location_id', 'location_osm_id', 'location_osm_type', 'date', 'currency', 'receipt_price_count', 'receipt_price_total', 'receipt_online_delivery_costs', 'owner_consumption', 'owner_comment', 'ready_for_price_tag_validation']
 const PROOF_CREATE_FIELDS = PROOF_UPDATE_FIELDS.concat([])  // 'file'
 const LOCATION_ONLINE_CREATE_FIELDS = ['type', 'website_url']
-const LOCATION_SEARCH_LIMIT = 10
 
 const OP_DEFAULT_PAGE_SIZE = 25  // 100 slows down the app
 const OP_DEFAULT_HEADERS = {
@@ -71,10 +70,6 @@ function extraPriceCreateOrUpdateFiltering(data) {
 
 
 export default {
-  /**
-   * OPEN PRICES API
-  */
-
   signIn(username, password) {
     let formData = new FormData()
     formData.append('username', username)
@@ -87,7 +82,17 @@ export default {
     })
     .then((response) => response.json())
   },
-
+  signInWithKeycloak(access_token) {
+    let formData = new FormData()
+    formData.append('access_token', access_token)
+    const url = `${import.meta.env.VITE_OPEN_PRICES_API_URL}/auth?${buildURLParams()}`
+    return fetch(url, {
+      method: 'POST',
+      body: formData,
+      headers: {}
+    })
+    .then((response) => response.json())
+  },
   getUsers(params = {}) {
     const defaultParams = {page: 1, size: OP_DEFAULT_PAGE_SIZE}  // order_by default ?
     const url = `${import.meta.env.VITE_OPEN_PRICES_API_URL}/users?${buildURLParams({...defaultParams, ...params})}`
@@ -463,6 +468,34 @@ export default {
     .then((response) => response.json())
   },
 
+  getLocationByOsmTypeAndId(osmType, osmId) {
+    const url = `${import.meta.env.VITE_OPEN_PRICES_API_URL}/locations/osm/${osmType.toUpperCase()}/${osmId}?${buildURLParams()}`
+    return fetch(url, {
+      method: 'GET',
+      headers: OP_DEFAULT_HEADERS,
+    })
+    .then((response) => response.json())
+  },
+
+  getLocationsCompare(locationIdA, locationIdB, params = {}) {
+    const url = `${import.meta.env.VITE_OPEN_PRICES_API_URL}/locations/compare?${buildURLParams({'location_id_a': locationIdA, 'location_id_b': locationIdB, ...params})}`
+    return fetch(url, {
+      method: 'GET',
+      headers: OP_DEFAULT_HEADERS,
+    })
+    .then((response) => response.json())
+  },
+
+  getCountries(params = {}) {
+    const defaultParams = {page: 1, size: OP_DEFAULT_PAGE_SIZE}  // order_by default ?
+    const url = `${import.meta.env.VITE_OPEN_PRICES_API_URL}/locations/osm/countries?${buildURLParams({...defaultParams, ...params})}`
+    return fetch(url, {
+      method: 'GET',
+      headers: OP_DEFAULT_HEADERS,
+    })
+    .then((response) => response.json())
+  },
+
   getFlags(params = {}) {
     const store = useAppStore()
     const defaultParams = {page: 1, size: OP_DEFAULT_PAGE_SIZE}  // order_by default ?
@@ -521,94 +554,12 @@ export default {
   },
 
   getChallenges(params = {}) {
-    const url = `${import.meta.env.VITE_OPEN_PRICES_API_URL}/challenges?${buildURLParams({...params})}`
+    const defaultParams = {page: 1, size: OP_DEFAULT_PAGE_SIZE, order_by: '-id'}
+    const url = `${import.meta.env.VITE_OPEN_PRICES_API_URL}/challenges?${buildURLParams({...defaultParams, ...params})}`
     return fetch(url, {
       method: 'GET',
       headers: OP_DEFAULT_HEADERS,
     })
     .then((response) => response.json())
-  },
-
-  /**
-   * OPEN FOOD FACTS API
-  */
-
-  openfoodfactsProductSearch(code) {
-    const url = `${constants.OFF_API_URL}/${code}.json`
-    return fetch(url, {
-      method: 'GET',
-      headers: OP_DEFAULT_HEADERS
-    })
-    .then((response) => response.json())
-  },
-
-  searchaliciousProductSearch(code) {
-    const url = `${constants.OFF_SEARCHALICIOUS_API_URL}/search?q=code:${code}`
-    return fetch(url, {
-      method: 'GET',
-      headers: OP_DEFAULT_HEADERS
-    })
-    .then((response) => response.json())
-  },
-
-
-  /**
-   * OPENSTREETMAP API
-  */
-
-  /**
-   * Nominatim search by query
-   * @param q: search query
-   */
-  openstreetmapNominatimSearch(q) {
-    const url = `${constants.OSM_NOMINATIM_SEARCH_URL}?q=${q}&addressdetails=1&format=json&limit=${LOCATION_SEARCH_LIMIT}`
-    return fetch(url, {
-      method: 'GET',
-      headers: OP_DEFAULT_HEADERS
-    })
-    .then((response) => response.json())
-    .then((data) => data.filter(l => !constants.NOMINATIM_RESULT_TYPE_EXCLUDE_LIST.includes(l.type)))
-  },
- /**
-   * Nominatim lookup by OSM ID
-   * @param id: OSM ID (without prefix)
-   */
-  openstreetmapNominatimLookup(id) {
-    const url = `${constants.OSM_NOMINATIM_LOOKUP_URL}?osm_ids=N${id},W${id},R${id}&addressdetails=1&format=json`
-    return fetch(url, {
-      method: 'GET',
-      headers: OP_DEFAULT_HEADERS
-    })
-    .then((response) => response.json())
-  },
-  /**
-   * Photon search by query
-   * @param restrictToShop: restrict the search to shop & amenity
-   * @param filterResultsOnProperties: filter out results based on their properties.osm_value
-   */
-  openstreetmapPhotonSearch(q, restrictToShop=true, filterResultsOnProperties=true) {
-    let url = `${constants.OSM_PHOTON_SEARCH_URL}?q=${q}&limit=${LOCATION_SEARCH_LIMIT}`
-    if (restrictToShop) {
-      url += '&osm_tag=shop&osm_tag=amenity'
-    }
-    return fetch(url, {
-      method: 'GET',
-      headers: OP_DEFAULT_HEADERS
-    })
-    .then((response) => response.json())
-    .then(data => data.features)
-    .then((data) => data.filter(l => filterResultsOnProperties ? !constants.NOMINATIM_RESULT_TYPE_EXCLUDE_LIST.includes(l.properties.osm_value) : true))
-  },
-  /**
-   * OpenStreetMap search by query
-   * @param source: 'nominatim' (default) or 'photon'
-   */
-  openstreetmapSearch(q, source='nominatim') {
-    if (source === 'photon') {
-      return this.openstreetmapPhotonSearch(q)
-    } else {
-      // default to nominatim
-      return this.openstreetmapNominatimSearch(q)
-    }
   },
 }

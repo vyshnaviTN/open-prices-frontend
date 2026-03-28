@@ -6,8 +6,8 @@
 		"HowTitle": "Comment fonctionne {op_name} ?",
 		"HowAnswer1": "Nous créons une base de données ouverte des prix alimentaires via la collecte citoyenne. Les prix peuvent être ajoutés par des utilisateurs via notre application web, ou l'application mobile officielle d'{off_url}. Les distributeurs alimentaires ou applications tierces peuvent également contribuer en utilisant notre {op_api_url}.",
 		"HowAnswer2": "{op_name} n'a pas seulement pour but de stocker des prix individuels, mais également des paniers de consommation, c'est-à-dire la liste des produits que les gens achètent lors d'une seule session d'achat. Ces données sont extrêmement intéressantes pour les chercheurs qui analysent les habitudes de consommation alimentaire.",
-		"HowAnswer3": "Dans la mesure du possible, nous demandons aux contributeurs de fournir une preuve du prix, sous la forme d'une photo de l'étiquette de prix ou du reçu. Cela facilite la vérification de la qualité des données.",
-		"HowAnswer4": "Si vous fournissez un reçu en tant qu'image de preuve, cela signifie que vous acceptez de soumettre votre panier de consommation à {op_name}. Nous anonymiserons le reçu et le rendrons publiquement accessible, afin qu'il puisse être utilisé à des fins de recherche. Si vous ne souhaitez pas partager publiquement votre reçu, vous pouvez toujours contribuer en prenant une photo de l'étiquette de prix.",
+		"HowAnswer3": "Dans la mesure du possible, nous demandons aux contributeurs de fournir une preuve du prix, sous la forme d'une photo de l'étiquette de prix ou du ticket de caisse. Cela facilite la vérification de la qualité des données.",
+		"HowAnswer4": "Si vous fournissez un ticket de caisse en tant qu'image de preuve, cela signifie que vous acceptez de soumettre votre panier de consommation à {op_name}. Nous anonymiserons le reçu et le rendrons publiquement accessible, afin qu'il puisse être utilisé à des fins de recherche. Si vous ne souhaitez pas partager publiquement votre reçu, vous pouvez toujours contribuer en prenant une photo de l'étiquette de prix.",
 		"LicenseTitle": "Licence",
 		"LicenseAnswer1": "La base de données des prix est sous licence {odbl_url}, ce qui signifie qu'elle peut être utilisée à toutes fins, à condition de créditer {op_name} et de partager toutes modifications apportées au jeu de données.",
 		"LicenseAnswer2": "Les images envoyées en tant que preuve sont sous licence {ccbysa_url}.",
@@ -60,7 +60,7 @@
 		},
 		"ProofDetails": {
 			"ReceiptWarning": "Un ticket de caisse peut contenir des informations personnelles, nous vous recommandons de les masquer (caviarder, plier...) avant de le prendre en photo.",
-			"PrivateWarning": "Vous pouvez également définir le reçu en privé. Les preuves privées ne seront visibles que pour vous et les modérateurs.",
+			"PrivateWarning": "Vous pouvez également définir le ticket de caisse en privé. Les preuves privées ne seront visibles que pour vous et les modérateurs.",
 			"Title": "Preuve"
 		},
 		"Title": "Ajouter plusieurs prix"
@@ -126,7 +126,7 @@
 		"Title": "Taper un code-barres"
 	},
 	"Challenge": {
-		"Title": "Défi communautaire",
+		"Title": "Défi de la communauté",
 		"Subtitle": "Rejoignez d’autres passionnés des prix des denrées alimentaires pour recueillir des informations sur  {challenge_title} {challenge_subtitle}.",
 		"StepTakePictures": {
 			"Title": "Prendre des photos des étiquettes de prix dans les magasins",
@@ -179,7 +179,7 @@
 		"AddNewProof": "Ajouter une nouvelle preuve",
 		"AddNewProofs": "Ajouter de nouvelles preuves",
 		"AddNewProofPriceTags": "Ajouter de nouvelles étiquettes de prix",
-		"AddNewProofReceipt": "Ajouter un nouveau reçu",
+		"AddNewProofReceipt": "Ajouter un nouveau ticket de caisse",
 		"AddToOFF": "Ajouter à {name}",
 		"Added": "Ajouté",
 		"AdditionalInfo": "Informations supplémentaires",
@@ -217,7 +217,7 @@
 		"Close": "Fermer",
 		"Comment": "Commentaire",
 		"Community": "Communauté",
-		"CommunityPrices": "Tarifs communautaires",
+		"CommunityPrices": "Prix communautaires",
 		"CommunityProofs": "Preuves de communauté",
 		"Consumption": "Consommation",
 		"ConsumptionPrices": "Prix de consommation",
@@ -226,6 +226,7 @@
 		"Contributors": "Contributeurs",
 		"Contributions": "Contributions",
 		"Confirm": "Confirmer",
+		"Count": "Compter",
 		"Country": "Pays",
 		"Countries": "Pays",
 		"CountryCount": "{count} pays | {count} pays | {count} pays",
@@ -248,8 +249,9 @@
 		"Error": "Erreur",
 		"Experiment": "Expérience",
 		"Experiments": "Expérimentations",
+		"Explore": "Explorer",
 		"FromPriceTag": "À partir d'une étiquette de prix",
-		"FromReceipt": "D'un reçu",
+		"FromReceipt": "À partir d'un ticket de caisse",
 		"GoToProof": "Accéder à la preuve",
 		"Join": "Rejoindre",
 		"Label": "Label",
@@ -259,6 +261,7 @@
 		"Languages": "Langue",
 		"LatestPrices": "Derniers prix",
 		"LatestProofs": "Dernières preuves",
+		"LearnMore": "En savoir plus",
 		"LoadMore": "Voir plus",
 		"Location": "Lieu",
 		"Locations": "Lieux",
@@ -266,11 +269,12 @@
 		"LocationFindShop": "Trouver l'emplacement du magasin",
 		"LocationMissing": "Lieu manquant",
 		"LocationSearchByName": "Rechercher par nom et ville",
+		"LocationsCompare": "Comparer 2 lieux",
 		"Date": "Date",
 		"DateMissing": "Date manquante",
 		"DateProofHelpText": "Date de la photo.",
 		"DateProofHelpTextExif": "Par défaut, nous essayons de l'extraire des métadonnées EXIF de l'image.",
-		"DateProofHelpTextReceipt": "Pour les reçus, indiquez la date d'achat.",
+		"DateProofHelpTextReceipt": "Pour les tickets de caisse, indiquez la date d'achat.",
 		"Details": "Détails",
 		"Delete": "Supprimer",
 		"DeveloperMode": "Mode développeur",
@@ -296,6 +300,8 @@
 		"FieldIsRequired": "Le champ est obligatoire",
 		"Filter": "Filtre",
 		"FilterChallengesShowAllStatus": "Afficher tous les défis",
+		"FilterWithPriceCount": "Avec les prix",
+		"FilterWithLocationCount": "Avec des emplacements",
 		"FilterProductWithPriceCount": "Avec un prix",
 		"FilterProductWithPriceCountHide": "Masquer les produits qui ont un prix",
 		"FilterProductWithoutPriceCount": "Sans prix",
@@ -356,6 +362,7 @@
 		"Open": "Ouvrir",
 		"OpenWithTheAssistant": "Ouvrir avec l'assistant",
 		"Order": "Ordre",
+		"OrderNameASC": "Nom",
 		"OrderLocationCountDESC": "Nombre de lieux",
 		"OrderProductUniqueScansDESC": "Nombre de numérisations",
 		"OrderProductPriceCountDESC": "Nombre de prix",
@@ -385,6 +392,8 @@
 		"PicturesAddedByYou": "Images ajoutées par vous",
 		"PRICE_TAG": "Étiquette de prix",
 		"PriceTags": "Étiquettes de prix",
+		"PriceTagsBoundingBoxesDisplay": "Afficher les cadres de délimitation des étiquettes de prix",
+		"PriceTagsBoundingBoxesHide": "Masquer les cadres de délimitation des étiquettes de prix",
 		"PriceCount": "{count} prix | {count} prix | {count} prix",
 		"PriceAddedCount": "{count} prix ajoutés | {count} prix ajouté | {count} prix ajoutés",
 		"PriceAddProgress": "{numberOfPricesAdded} / {totalNumberOfPrices} prix ajoutés",
@@ -395,6 +404,7 @@
 		"PriceAlreadyUploaded": "Prix déjà affiché",
 		"PriceReadyToBeUploaded": "Prix prêt à être téléchargé",
 		"PricesAlreadyUploaded": "Les prix sont déjà téléchargés",
+		"PricesAll": "Tous les prix",
 		"PricesMore": "Plus de prix",
 		"PricesAdded": "Prix ajoutés",
 		"PricesAddedToday": "Prix ajoutés aujourd'hui",
@@ -423,6 +433,7 @@
 		"Quantity": "Quantité",
 		"QuantityBought": "Quantité achetée",
 		"QuantityMissing": "Quantité manquante",
+		"Rank": "Rang",
 		"Reason": "Raison",
 		"RECEIPT": "Ticket de caisse",
 		"Receipt": "Ticket de caisse",
@@ -434,6 +445,7 @@
 		"Recent": "Récent",
 		"Re-open": "Rouvrir",
 		"ReportProblem": "Signaler un problème",
+		"Reset": "Réinitialiser",
 		"Resolved": "Résolu",
 		"Reuses": "Réutilisations",
 		"ReusesKnown": "Réutilisations connues",
@@ -441,7 +453,7 @@
 		"Select": "Sélectionner",
 		"Send": "Envoyer",
 		"Settings": "Paramètres",
-		"SignInOFFAccount": "Se connecter avec votre compte {url}",
+		"SignInOFFAccount": "Connectez-vous avec vos identifiants {url}",
 		"SignedIn": "Connecté !",
 		"SignIn": "Se connecter",
 		"SignOut": "Se déconnecter",
@@ -719,10 +731,10 @@
 		"PriceValidationAllow": "Autoriser l'extraction par IA du prix sur mes photos et la validation par la communauté",
 		"PriceTagAllowCommunityValidation": "Permettre à la communauté de valider les prix extraits par IA",
 		"PriceTagAIWarning": "L'IA sera exécutée sur vos preuves pour en extraire les prix.",
-		"ReceiptAllowAI": "Autoriser l'exécution de l'IA sur votre reçu pour extraire les prix",
-		"ReceiptAIWarning": "L'IA sera exécutée sur votre reçu pour en extraire les prix.",
+		"ReceiptAllowAI": "Autoriser l'exécution de l'IA sur votre ticket de caisse pour extraire les prix",
+		"ReceiptAIWarning": "L'IA sera exécutée sur votre ticket de caisse pour en extraire les prix.",
 		"PromoProofPriceTagAddMultiple": "Pour télécharger plusieurs étiquettes de prix (même emplacement de magasin et même date), cliquez ici !",
-		"PromoReceiptAssistant": "Expérience : essayez le nouvel assistant de reçus pour extraire automatiquement les prix de vos reçus !"
+		"PromoReceiptAssistant": "Expérience : essayez le nouvel assistant de tickets de caisse pour extraire automatiquement les prix !"
 	},
 	"ProofCard": {
 		"Proof": "Preuve",
@@ -757,15 +769,15 @@
 	},
 	"ReceiptAssistant": {
 		"AddNewItem": "Ajouter un nouvel article",
-		"NoItemsFound": "Aucun élément n'a pu être extrait du reçu, veuillez réessayer.",
+		"NoItemsFound": "Aucun élément n'a pu être extrait du ticket de caisse, veuillez réessayer.",
 		"PriceAlreadyCreated": "Prix déjà créé",
 		"PriceAlreadyCreatedForItem": "Prix déjà créé pour l'article",
 		"PriceReadyToBeAdded": "Prix prêt à être ajouté",
-		"ReceiptItems": "Articles reçus",
+		"ReceiptItems": "Articles ticket de caisse",
 		"ReceiptItemsCheck": "Éléments de réception, vérifier et corriger",
 		"UploadOnlyNewPrices": "Téléverser uniquement les nouveaux prix ({nbPrices})",
 		"UploadOrUpdateAllValidPrices": "Téléverser ou mettre à jour tous les prix valides ({nbPrices})",
-		"WaitForExtraction": "Extraction automatique des éléments du reçu, veuillez patienter..."
+		"WaitForExtraction": "Extraction automatique des éléments du ticket de caisse, veuillez patienter..."
 	},
 	"Reuses": {
 		"AlertNew": "Votre réutilisation est absente ? Faites-le nous savoir {url} !",
@@ -803,10 +815,16 @@
 			"Title": "Ajouter plusieurs preuves"
 		},
 		"AddProofReceipt": {
-			"Title": "Ajouter une preuve (reçu)"
+			"Title": "Ajouter une preuve (ticket de caisse)"
 		},
 		"AddProofsPriceTags": {
 			"Title": "Ajouter des preuves (étiquettes de prix)"
+		},
+		"CompareLocations": {
+			"Title": "Comparer 2 lieux"
+		},
+		"Explore": {
+			"Title": "Explorer"
 		},
 		"Locations": {
 			"Title": "Lieux"
@@ -835,11 +853,17 @@
 		"Receipt": {
 			"Title": "Ticket de caisse"
 		},
+		"Cities": {
+			"Title": "Villes"
+		},
 		"Community": {
 			"Title": "Communauté"
 		},
 		"Contribute": {
 			"Title": "Contribuer"
+		},
+		"Countries": {
+			"Title": "Pays"
 		},
 		"CreateOffProduct": {
 			"Title": "Créer un produit"
@@ -848,7 +872,8 @@
 			"Title": "Expérimentations"
 		},
 		"Home": {
-			"Title": "Accueil"
+			"Title": "Accueil",
+			"Help": "{op_name} est un projet de collecte et de partage des prix de produits du monde entier. Il s'agit d'un ensemble de données accessible au public, utilisable pour la recherche, l'analyse et bien plus encore !"
 		},
 		"Dashboard": {
 			"Title": "Tableau de bord"
@@ -904,9 +929,6 @@
 		"ProofPriceTagAssistant": {
 			"Title": "Assistant d'étiquette de prix de preuve"
 		},
-		"PriceValidationAssistant": {
-			"Title": "Assistant de validation de prix"
-		},
 		"ReceiptAssistant": {
 			"Title": "Assistant de réception"
 		},
@@ -914,13 +936,15 @@
 			"Title": "Défi"
 		},
 		"Challenges": {
-			"Title": "Défis"
+			"Title": "Défis",
+			"Help": "Les défis permettent à la communauté de concentrer ses efforts et de recueillir les prix de produits spécifiques. Ils durent généralement un mois, et les participants sont classés selon leur contribution.\n\nConsultez les défis en cours ci-dessous pour participer, ou consultez les données des défis précédents."
 		},
 		"CommunityChallenge": {
-			"Title": "Défi communautaire"
+			"Title": "Défi de la communauté"
 		},
 		"Validate": {
-			"Title": "Valider"
+			"Title": "Valider",
+			"Help": "Après quelques secondes, les informations des étiquettes de prix sont automatiquement extraites des photos téléchargées, mais votre aide est toujours nécessaire pour en vérifier l'exactitude. Ce travail est réalisé collectivement.\n\nPour chaque étiquette de prix affichée, vérifiez que le prix, le code-barres ou la catégorie sont corrects, corrigez-les si nécessaire et confirmez. Une fois un prix confirmé, il est ajouté à la base de données publique et partagé avec la communauté.\n\nLes prix illisibles ou invalides peuvent être signalés comme erreurs. En cas de doute, vous pouvez ignorer le prix et laisser un autre contributeur le vérifier."
 		},
 		"ValidatePrices": {
 			"Title": "Valider des prix"
@@ -940,6 +964,7 @@
 		"ServerError": "Erreur : erreur serveur",
 		"Title": "Se connecter",
 		"SignInOFFAccount": "Se connecter avec votre compte {url}",
+		"SignInWithOpenFoodFactsAuth": "Connectez-vous avec l'authentification {off_name}",
 		"UsernameLabel": "Identifiant",
 		"WrongCredentials": "Erreur : Problème d'identifiant"
 	},
@@ -997,6 +1022,7 @@
 		"CurrencyLabel": "Devise",
 		"DisplayTitle": "Afficher",
 		"BarcodeScanner": "Lecteur de code-barres",
+		"BarcodeScannerLibrary": "Librairie du lecteur de codes-barres",
 		"DefaultMode": "Mode par défaut",
 		"FavoriteCurrencies": "Devises préférées",
 		"CurrencyRequired": "Au moins une devise est requise",

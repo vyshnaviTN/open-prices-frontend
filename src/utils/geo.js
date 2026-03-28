@@ -1,15 +1,16 @@
-import CountriesWithEmoji from '../data/countries-with-emoji.json'
 import constants from '../constants'
 
 
-function getCountryEmojiFromName(countryString) {
-  const country = CountriesWithEmoji.find(c => c.name === countryString || (c.name_original && c.name_original.length && c.name_original.includes(countryString)))
-  return country ? country.emoji : null
-}
-
+/**
+ * /**
+ * Get the flag emoji for the country
+ * @link https://dev.to/jorik/country-code-to-flag-emoji-a21
+ * @param  {String} countryCode The country code
+ * @return {String}             The flag emoji
+ */
 function getCountryEmojiFromCode(countryCode) {
-  const country = CountriesWithEmoji.find(c => c.code === countryCode)
-  return country ? country.emoji : null
+  let codePoints = countryCode.toUpperCase().split('').map(char =>  127397 + char.charCodeAt())
+	return String.fromCodePoint(...codePoints)
 }
 
 function getLocationName(locationObject) {
@@ -81,6 +82,19 @@ function getLocationCountry(locationObject) {
   return locationObject.osm_address_country || ''
 }
 
+function getLocationCountryCode(locationObject) {
+  // Nominatim
+  if (locationObject.address) {
+    return locationObject.address.country_code || ''
+  }
+  // Photon
+  else if (locationObject.properties) {
+    return locationObject.properties.countrycode || ''
+  }
+  // OP
+  return locationObject.osm_address_country_code || ''
+}
+
 /**
  * input: {"geometry":{"coordinates":[2.3548062,48.8301752],"type":"Point"},"type":"Feature","properties":{"osm_id":11112946989,"country":"France","city":"Paris","countrycode":"FR","postcode":"75013","locality":"Quartier de la Maison-Blanche","type":"house","osm_type":"N","osm_key":"shop","housenumber":"30","street":"Avenue d'Italie","district":"Paris","osm_value":"department_store","name":"HEMA","state":"Ile-de-France"}}
  * output: HEMA ; 30, Avenue d'Italie, Paris
@@ -103,8 +117,7 @@ function getLocationOSMTitle(locationObject, withName=true, withRoad=false, with
     locationTitle += getLocationCountry(locationObject)
   }
   if (withEmoji) {
-    // locationTitle += ` ${getCountryEmojiFromName(locationObject.osm_address_country) || ''}`
-    locationTitle += ` ${getCountryEmojiFromCode(locationObject.osm_address_country_code) || ''}`
+    locationTitle += ` ${getCountryEmojiFromCode(getLocationCountryCode(locationObject)) || ''}`
   }
   if (!locationTitle) {
     locationTitle = locationObject.id
@@ -243,8 +256,8 @@ function getLocationIcon(locationObject) {
 
 
 export default {
-  getCountryEmojiFromName,
   getCountryEmojiFromCode,
+  getLocationCountryCode,
   getLocationName,
   getLocationRoad,
   getLocationCity,

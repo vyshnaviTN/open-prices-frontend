@@ -226,6 +226,7 @@
 		"Contributors": "Contributors",
 		"Contributions": "Contributions",
 		"Confirm": "உறுதிப்படுத்தவும்",
+		"Count": "Count",
 		"Country": "Country",
 		"Countries": "Countries",
 		"CountryCount": "{count} countries | {count} country | {count} countries",
@@ -248,6 +249,7 @@
 		"Error": "பிழை",
 		"Experiment": "பரிசோதனை",
 		"Experiments": "Experiments",
+		"Explore": "ஆராயுங்கள்",
 		"FromPriceTag": "விலைக் குறியிலிருந்து",
 		"FromReceipt": "ரசீதில் இருந்து",
 		"GoToProof": "Go to proof",
@@ -259,6 +261,7 @@
 		"Languages": "Languages",
 		"LatestPrices": "Latest prices",
 		"LatestProofs": "Latest proofs",
+		"LearnMore": "மேலும்அறிய",
 		"LoadMore": "Load more",
 		"Location": "Location",
 		"Locations": "இடங்கள்",
@@ -266,6 +269,7 @@
 		"LocationFindShop": "கடையின் இருப்பிடத்தைக் கண்டறியவும்",
 		"LocationMissing": "இடம் இல்லை",
 		"LocationSearchByName": "பெயர் மற்றும் நகரத்தின் அடிப்படையில் தேடுங்கள்",
+		"LocationsCompare": "Compare 2 locations",
 		"Date": "தேதி",
 		"DateMissing": "தேதியைக் காணவில்லை",
 		"DateProofHelpText": "படத்தின் தேதி.",
@@ -296,6 +300,8 @@
 		"FieldIsRequired": "புலம் அவசியம்",
 		"Filter": "வடிகட்டி",
 		"FilterChallengesShowAllStatus": "Show all challenges",
+		"FilterWithPriceCount": "விலைகளுடன்",
+		"FilterWithLocationCount": "இருப்பிடங்களுடன்",
 		"FilterProductWithPriceCount": "ஒரு விலையுடன்",
 		"FilterProductWithPriceCountHide": "விலைகளுடன் கூடிய தயாரிப்புகளை மறை",
 		"FilterProductWithoutPriceCount": "விலைகள் இல்லாமல்",
@@ -356,6 +362,7 @@
 		"Open": "திறந்த",
 		"OpenWithTheAssistant": "Open with the assistant",
 		"Order": "ஆர்டர்",
+		"OrderNameASC": "பெயர்",
 		"OrderLocationCountDESC": "இருப்பிட எண்ணிக்கை",
 		"OrderProductUniqueScansDESC": "ஸ்கேன்களின் எண்ணிக்கை",
 		"OrderProductPriceCountDESC": "பொருட்களின் எண்ணிக்கை: ",
@@ -385,6 +392,8 @@
 		"PicturesAddedByYou": "நீங்கள் சேர்த்த படங்கள்",
 		"PRICE_TAG": "விலைக் குறி",
 		"PriceTags": "விலை குறிச்சொற்கள்",
+		"PriceTagsBoundingBoxesDisplay": "Display price tag bounding boxes",
+		"PriceTagsBoundingBoxesHide": "Hide price tag bounding boxes",
 		"PriceCount": "{count} விலைகள் | {count} விலை | {count} விலைகள்",
 		"PriceAddedCount": "{count} விலைகள் சேர்க்கப்பட்டன | {count} விலை சேர்க்கப்பட்டது | {count} விலைகள் சேர்க்கப்பட்டன",
 		"PriceAddProgress": "{numberOfPricesAdded} / {totalNumberOfPrices} prices added",
@@ -395,6 +404,7 @@
 		"PriceAlreadyUploaded": "விலை ஏற்கனவே பதிவேற்றப்பட்டது",
 		"PriceReadyToBeUploaded": "விலை பதிவேற்றத் தயாராக உள்ளது.",
 		"PricesAlreadyUploaded": "விலைகள் ஏற்கனவே பதிவேற்றப்பட்டுள்ளன",
+		"PricesAll": "அனைத்து விலைகளும்",
 		"PricesMore": "கூடுதல் விலைகள்",
 		"PricesAdded": "விலைகள் சேர்க்கப்பட்டன",
 		"PricesAddedToday": "இன்று சேர்க்கப்பட்ட விலைகள்",
@@ -423,6 +433,7 @@
 		"Quantity": "Quantity",
 		"QuantityBought": "Quantity bought",
 		"QuantityMissing": "Quantity missing",
+		"Rank": "ரேங்க்",
 		"Reason": "காரணம்",
 		"RECEIPT": "ரசீது",
 		"Receipt": "ரசீது",
@@ -434,6 +445,7 @@
 		"Recent": "சமீபத்திய",
 		"Re-open": "மீண்டும் திற",
 		"ReportProblem": "Report a problem",
+		"Reset": "Reset",
 		"Resolved": "தீர்க்கப்பட்டது",
 		"Reuses": "Reuses",
 		"ReusesKnown": "Known reuses",
@@ -441,7 +453,7 @@
 		"Select": "Select",
 		"Send": "Send",
 		"Settings": "அமைப்புகள்",
-		"SignInOFFAccount": "உங்கள் Mi {url} கணக்கிற்குள் உள்நுழைக",
+		"SignInOFFAccount": "Sign in with your {url} credentials",
 		"SignedIn": "உள்நுழைந்தீர்கள்!",
 		"SignIn": "உள்நுழை",
 		"SignOut": "வெளியேறு",
@@ -808,6 +820,12 @@
 		"AddProofsPriceTags": {
 			"Title": "Add proofs (price tags)"
 		},
+		"CompareLocations": {
+			"Title": "Compare 2 locations"
+		},
+		"Explore": {
+			"Title": "ஆராயுங்கள்"
+		},
 		"Locations": {
 			"Title": "இடங்கள்"
 		},
@@ -835,11 +853,17 @@
 		"Receipt": {
 			"Title": "ரசீது"
 		},
+		"Cities": {
+			"Title": "நகரங்கள்"
+		},
 		"Community": {
 			"Title": "Community"
 		},
 		"Contribute": {
 			"Title": "Contribute"
+		},
+		"Countries": {
+			"Title": "Countries"
 		},
 		"CreateOffProduct": {
 			"Title": "Create Product"
@@ -848,7 +872,8 @@
 			"Title": "Experiments"
 		},
 		"Home": {
-			"Title": "முகப்பு"
+			"Title": "முகப்பு",
+			"Help": "{op_name} is a project to collect and share prices of products around the world. It's a publicly available dataset that can be used for research, analysis, and more!"
 		},
 		"Dashboard": {
 			"Title": "Dashboard"
@@ -904,9 +929,6 @@
 		"ProofPriceTagAssistant": {
 			"Title": "விலைக் குறிச்சொல் ஆதார உதவியாளர்"
 		},
-		"PriceValidationAssistant": {
-			"Title": "Price Validation Assistant"
-		},
 		"ReceiptAssistant": {
 			"Title": "Receipt Assistant"
 		},
@@ -914,13 +936,15 @@
 			"Title": "சவால்"
 		},
 		"Challenges": {
-			"Title": "சவால்கள்"
+			"Title": "சவால்கள்",
+			"Help": "Challenges are a way for the community to focus their efforts and gather prices of specific products. They usually last a month, and contributors are ranked by their contribution.\n\nCheck the ongoing challenges below to participate, or visit the past challenges data."
 		},
 		"CommunityChallenge": {
 			"Title": "சமூக சவால்"
 		},
 		"Validate": {
-			"Title": "Validate"
+			"Title": "Validate",
+			"Help": "After a few seconds, price tags information is automatically extracted from uploaded pictures, but help is still needed to validate its accuracy. This is done as a community effort.\n\nFor each price tag shown, check that the price, barcode or category are correct, fix them if needed and confirm. When you confirm a price, it's added to the public database and shared with the community.\n\nUnreadable or invalid prices can be marked as errors. If you're unsure, you can ignore the price and let another contributor have a go at it."
 		},
 		"ValidatePrices": {
 			"Title": "Validate prices"
@@ -940,6 +964,7 @@
 		"ServerError": "Error: server error",
 		"Title": "உள்நுழை",
 		"SignInOFFAccount": "உங்கள் Mi {url} கணக்கிற்குள் உள்நுழைக",
+		"SignInWithOpenFoodFactsAuth": "Sign in with {off_name} auth",
 		"UsernameLabel": "Username",
 		"WrongCredentials": "Error: wrong credentials"
 	},
@@ -997,6 +1022,7 @@
 		"CurrencyLabel": "நாணயம்",
 		"DisplayTitle": "Display",
 		"BarcodeScanner": "பார்கோடு ஸ்கேனர்",
+		"BarcodeScannerLibrary": "Barcode scanner library",
 		"DefaultMode": "இயல்புநிலை பயன்முறை",
 		"FavoriteCurrencies": "Favorite currencies",
 		"CurrencyRequired": "At least one currency is required",

@@ -226,6 +226,7 @@
 		"Contributors": "المساهمون",
 		"Contributions": "مساهمات",
 		"Confirm": "يتأكد",
+		"Count": "عدّ",
 		"Country": "بلد",
 		"Countries": "بلدان",
 		"CountryCount": "{count} دول | {count} دولة | {count} دول",
@@ -237,7 +238,7 @@
 		"CurrencyCount": "{count} عملات | {count} عملة | {count} عملات",
 		"CurrencyProofHelpTextSettings": "يمكنك إضافة العملات في إعداداتك.",
 		"Dashboard": "لوحة التحكم",
-		"Display": "Display",
+		"Display": "العرض",
 		"DisplayList": "قائمة",
 		"DisplayPriceList": "قائمة",
 		"DisplayTable": "طاولة",
@@ -248,6 +249,7 @@
 		"Error": "خطأ",
 		"Experiment": "تجربة",
 		"Experiments": "التجارب",
+		"Explore": "يستكشف",
 		"FromPriceTag": "من سعر البطاقة",
 		"FromReceipt": "من الإيصال",
 		"GoToProof": "انتقل إلى الإثبات",
@@ -259,6 +261,7 @@
 		"Languages": "اللغات",
 		"LatestPrices": "أحدث الأسعار",
 		"LatestProofs": "أحدث الأدلة",
+		"LearnMore": "لمعرفة المزيد",
 		"LoadMore": "حمّل المزيد",
 		"Location": "موقع",
 		"Locations": "المواقع",
@@ -266,6 +269,7 @@
 		"LocationFindShop": "ابحث عن موقع المتجر",
 		"LocationMissing": "الموقع مفقود",
 		"LocationSearchByName": "ابحث بالاسم والمدينة",
+		"LocationsCompare": "Compare 2 locations",
 		"Date": "تاريخ",
 		"DateMissing": "التاريخ مفقود",
 		"DateProofHelpText": "تاريخ الصورة.",
@@ -296,6 +300,8 @@
 		"FieldIsRequired": "الحقل مطلوب",
 		"Filter": "تصفية",
 		"FilterChallengesShowAllStatus": "عرض جميع التحديات",
+		"FilterWithPriceCount": "مع الأسعار",
+		"FilterWithLocationCount": "مع مواقع",
 		"FilterProductWithPriceCount": "بثمن",
 		"FilterProductWithPriceCountHide": "إخفاء المنتجات مع الأسعار",
 		"FilterProductWithoutPriceCount": "بدون أسعار",
@@ -356,6 +362,7 @@
 		"Open": "يفتح",
 		"OpenWithTheAssistant": "ابدأ بالمساعد",
 		"Order": "طلب",
+		"OrderNameASC": "اﻹسم",
 		"OrderLocationCountDESC": "عدد المواقع",
 		"OrderProductUniqueScansDESC": "عدد عمليات المسح",
 		"OrderProductPriceCountDESC": "عدد الأسعار",
@@ -385,6 +392,8 @@
 		"PicturesAddedByYou": "الصور التي أضفتها أنت",
 		"PRICE_TAG": "سعر البطاقة",
 		"PriceTags": "بطاقات الأسعار",
+		"PriceTagsBoundingBoxesDisplay": "Display price tag bounding boxes",
+		"PriceTagsBoundingBoxesHide": "Hide price tag bounding boxes",
 		"PriceCount": "{count} الأسعار | {count} السعر | {count} الأسعار",
 		"PriceAddedCount": "تمت إضافة الأسعار {count} | تمت إضافة السعر {count} | تمت إضافة الأسعار {count}",
 		"PriceAddProgress": "تمت إضافة الأسعار {numberOfPricesAdded} / {totalNumberOfPrices}",
@@ -395,6 +404,7 @@
 		"PriceAlreadyUploaded": "السعر تم تحميله بالفعل",
 		"PriceReadyToBeUploaded": "السعر جاهز للتحميل",
 		"PricesAlreadyUploaded": "الأسعار تم تحميلها بالفعل",
+		"PricesAll": "جميع الأسعار",
 		"PricesMore": "أسعار إضافية",
 		"PricesAdded": "تمت إضافة الأسعار",
 		"PricesAddedToday": "الأسعار المضافة اليوم",
@@ -423,6 +433,7 @@
 		"Quantity": "الكميه",
 		"QuantityBought": "الكمية المشتراة",
 		"QuantityMissing": "القنب مفقود",
+		"Rank": "رتبة",
 		"Reason": "السبب",
 		"RECEIPT": "إيصال",
 		"Receipt": "إيصال",
@@ -433,7 +444,8 @@
 		"ReceiptOnlineDeliveryCosts": "تكاليف التوصيل",
 		"Recent": "مؤخرًا",
 		"Re-open": "إعادة فتح",
-		"ReportProblem": "Report a problem",
+		"ReportProblem": "إبلاغ عن مشكلة",
+		"Reset": "Reset",
 		"Resolved": "تم الحل",
 		"Reuses": "إعادة الاستخدام",
 		"ReusesKnown": "الاستخدامات المعروفة",
@@ -441,7 +453,7 @@
 		"Select": "يختار",
 		"Send": "إرسال",
 		"Settings": "الإعدادات",
-		"SignInOFFAccount": "سجّل الدخول باستخدام حسابك {url}",
+		"SignInOFFAccount": "Sign in with your {url} credentials",
 		"SignedIn": "تم تسجيل الدخول!",
 		"SignIn": "تسجيل الدخول",
 		"SignOut": "تسجيل الخروج",
@@ -470,7 +482,7 @@
 		"TopCountries": "أفضل الدول",
 		"Today": "اليوم",
 		"Top": "قمة",
-		"Total": "Total",
+		"Total": "المجموع",
 		"Truncate": "اقتطاع",
 		"Truncated": "مختصر",
 		"TryItOut": "جربها",
@@ -516,7 +528,7 @@
 		"No": "لا",
 		"Food": "طعام",
 		"PetFood": "طعام الحيوانات الأليفة",
-		"Beauty": "Beauty"
+		"Beauty": "جمال"
 	},
 	"ContributionAssistant": {
 		"Steps": {
@@ -768,7 +780,7 @@
 		"WaitForExtraction": "جارٍ استخراج العناصر من الإيصال تلقائياً، يرجى الانتظار..."
 	},
 	"Reuses": {
-		"AlertNew": "Your reuse is missing? Let us know {url}!",
+		"AlertNew": "إعادة الاستخدام الخاصة بك مفقودة؟ دعنا نعرف {url}!",
 		"Here": "هنا"
 	},
 	"Router": {
@@ -808,6 +820,12 @@
 		"AddProofsPriceTags": {
 			"Title": "أضف إثباتات (بطاقات الأسعار)"
 		},
+		"CompareLocations": {
+			"Title": "Compare 2 locations"
+		},
+		"Explore": {
+			"Title": "يستكشف"
+		},
 		"Locations": {
 			"Title": "المواقع"
 		},
@@ -835,11 +853,17 @@
 		"Receipt": {
 			"Title": "إيصال"
 		},
+		"Cities": {
+			"Title": "المدن"
+		},
 		"Community": {
 			"Title": "مجتمع"
 		},
 		"Contribute": {
 			"Title": "المساهمة"
+		},
+		"Countries": {
+			"Title": "بلدان"
 		},
 		"CreateOffProduct": {
 			"Title": "إنشاء منتج"
@@ -848,7 +872,8 @@
 			"Title": "التجارب"
 		},
 		"Home": {
-			"Title": "الصفحة الرئيسية"
+			"Title": "الصفحة الرئيسية",
+			"Help": "{op_name} is a project to collect and share prices of products around the world. It's a publicly available dataset that can be used for research, analysis, and more!"
 		},
 		"Dashboard": {
 			"Title": "لوحة التحكم"
@@ -904,9 +929,6 @@
 		"ProofPriceTagAssistant": {
 			"Title": "مساعد بطاقة السعر"
 		},
-		"PriceValidationAssistant": {
-			"Title": "مساعد التحقق من الأسعار"
-		},
 		"ReceiptAssistant": {
 			"Title": "مساعد استلام"
 		},
@@ -914,13 +936,15 @@
 			"Title": "تحدي"
 		},
 		"Challenges": {
-			"Title": "التحديات"
+			"Title": "التحديات",
+			"Help": "Challenges are a way for the community to focus their efforts and gather prices of specific products. They usually last a month, and contributors are ranked by their contribution.\n\nCheck the ongoing challenges below to participate, or visit the past challenges data."
 		},
 		"CommunityChallenge": {
 			"Title": "تحدي المجتمع"
 		},
 		"Validate": {
-			"Title": "التحقق"
+			"Title": "التحقق",
+			"Help": "After a few seconds, price tags information is automatically extracted from uploaded pictures, but help is still needed to validate its accuracy. This is done as a community effort.\n\nFor each price tag shown, check that the price, barcode or category are correct, fix them if needed and confirm. When you confirm a price, it's added to the public database and shared with the community.\n\nUnreadable or invalid prices can be marked as errors. If you're unsure, you can ignore the price and let another contributor have a go at it."
 		},
 		"ValidatePrices": {
 			"Title": "تحقق من الأسعار"
@@ -940,6 +964,7 @@
 		"ServerError": "خطأ: خطأ في الخادم",
 		"Title": "تسجيل الدخول",
 		"SignInOFFAccount": "سجّل الدخول باستخدام حسابك {url}",
+		"SignInWithOpenFoodFactsAuth": "Sign in with {off_name} auth",
 		"UsernameLabel": "اسم المستخدم",
 		"WrongCredentials": "خطأ: بيانات اعتماد خاطئة"
 	},
@@ -954,7 +979,7 @@
 		"Products": "المنتجات",
 		"Locations": "المواقع",
 		"Users": "المستخدمون",
-		"Total": "Total",
+		"Total": "المجموع",
 		"WithPrice": "بثمن",
 		"WithProduct": "مع منتج",
 		"WithProductBarcode": "مع رمز شريطي للمنتج",
@@ -995,8 +1020,9 @@
 		"ChangeLanguage": "تغيير اللغة",
 		"CountryLabel": "بلد",
 		"CurrencyLabel": "عملة",
-		"DisplayTitle": "Display",
+		"DisplayTitle": "العرض",
 		"BarcodeScanner": "ماسح الباركود",
+		"BarcodeScannerLibrary": "Barcode scanner library",
 		"DefaultMode": "الوضع الافتراضي",
 		"FavoriteCurrencies": "العملات المفضلة",
 		"CurrencyRequired": "يلزم وجود عملة واحدة على الأقل",
